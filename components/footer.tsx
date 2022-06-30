@@ -4,7 +4,9 @@ type Props = {}
 
 const Footer = (props: Props) => {
     return (
-        <div>Footer</div>
+        <div className="bg-blue-600 py-5 text-white text-center">
+            Trần Minh Dũng
+        </div>
     )
 }
 
