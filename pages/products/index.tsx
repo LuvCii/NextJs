@@ -1,6 +1,8 @@
 import { GetStaticProps, GetStaticPropsContext } from 'next';
 import Link from 'next/link';
 import React from 'react'
+import Footer from '../../components/footer';
+import Header from '../../components/header';
 // import NotFound from '../404';
 
 
@@ -13,6 +15,9 @@ const ProductPage = ({ products }: ProductProps) => {
     console.log("products", products)
     if (!products) return false;
     return (
+        // <div>
+        //     <Header />
+        // </div>
         <div>
             {products.map((item) => (
                 <div key={item.id}>
@@ -22,6 +27,9 @@ const ProductPage = ({ products }: ProductProps) => {
                 </div>
             ))}
         </div>
+        // <div>
+        //     <Footer />
+        // </div>
     )
 }
 
