@@ -14,15 +14,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="">
+      {/* <div className="">
         <Header />
-      </div>
+      </div> */}
       <main >
         HomePage
       </main>
-      <div >
+      {/* <div >
         <Footer />
-      </div>
+      </div> */}
     </div>
   )
 }
