@@ -1,16 +1,29 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Product A"
-        },
-        {
-            "id": 2,
-            "name": "Product B"
-        },
-        {
-            "id": 3,
-            "name": "Product C"
-        }
-    ]
+  "products": [
+    {
+      "id": 12,
+      "name": "Product A"
+    },
+    {
+      "id": 1,
+      "name": "Product B"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "dung@gmail.com",
+      "password": "Product A"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "12345",
+      "id": 3
+    }
+  ]
 }
